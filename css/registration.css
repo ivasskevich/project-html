@@ -1,0 +1,188 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI';
+   display: flex;
+}
+
+.center {
+   width: 100vw;
+}
+
+.box {
+   margin: 30px;
+   width: 400px;
+   height: 480px;
+   border: 1px solid rgb(147, 147, 147);
+   border-radius: 10px;
+   padding: 0px 20px 20px 20px;
+   background-color: rgb(255, 255, 255);
+}
+
+label input {
+   width: 387px;
+   padding: 5px;
+   margin: 5px 0px 20px 0px;
+}
+
+b {
+   margin-right: 10px;
+   color: rgb(25, 187, 187);
+}
+
+i {
+   font-size: 10px;
+}
+
+form div {
+   margin-top: -15px;
+   margin-bottom: 20px;
+}
+
+.button {
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   width: 400px;
+   padding: 5px;
+   background-color: #ffd813;
+}
+
+.button:hover {
+   background-color: rgb(215, 180, 27);
+}
+
+.inform1 {
+   font-size: 14px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.Company {
+   padding: 20px 0px 20px 35px;
+   font-weight: 700;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+   margin-bottom: 20px;
+}
+
+.box_left {
+   min-width: 200px;
+   min-height: 100vw;
+   border-right: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   width: 75%;
+   height: 40px;
+   margin: 0px 20px 0px 20px;
+   padding: 5px;
+   color: rgb(88, 88, 88);
+}
+
+.menu:hover {
+   background: rgb(152, 28, 70);
+   color: white;
+}
+
+.menu_span {
+   font-size: 14px;
+   margin-left: 10px;
+}
+
+.image_menu {
+   width: 20px;
+   margin-left: 10px;
+}
+
+.box_left a {
+   text-decoration: none;
+}
+
+.registration {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.registration:hover {
+   background-color: rgb(68, 139, 0);
+}
+
+label {
+   cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+   outline: none;
+}
+
+main {
+   min-width: 100vw;
+   min-height: 100vh;
+   background-color: rgb(234, 234, 234);
+   padding: 0px 30px 0px 30px;
+}
+
+header {
+   width: fit-content;
+   padding: 20px 0px 20px 0px;
+   font-weight: 700;
+   font-size: 25px;
+   margin-bottom: 35px;
+}
+
+header img {
+   width: 20px;
+   margin-right: 20px;
+   padding: 5px;
+}
+
+header img:hover {
+   border-radius: 5px;
+   background-color: aliceblue;
+   cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+   header img {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .box_left {
+      display: none;
+   }
+
+   .center {
+      min-height: 100vh;
+   }
+
+   main {
+      padding: 0px 10px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .box {
+      width: 350px;
+   }
+
+   label input {
+      width: 337px;
+   }
+
+   .button {
+      width: 350px;
+   }
+}

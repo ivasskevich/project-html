@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/registration.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="box_left">
+      <div class="Company">Company</div>
+      <a href="index.html">
+         <div class="menu">
+            <img class="image_menu" src="img/dashboard_gray.svg" name="dashboard" alt="dashboard_gray">
+            <span class="menu_span">Dashboard</span>
+         </div>
+      </a>
+      <a href="user_profile.html">
+         <div class="menu">
+            <img class="image_menu" src="img/account_gray.svg" name="account" alt="account_gray">
+            <span class="menu_span">User Profile</span>
+         </div>
+      </a>
+      <a href="#">
+         <div class="menu">
+            <img class="image_menu" src="img/map_gray.svg" alt="map_gray">
+            <span class="menu_span">Maps</span>
+         </div>
+      </a>
+      <a href="#">
+         <div class="menu">
+            <img class="image_menu" src="img/notify_gray.svg" alt="notify_gray">
+            <span class="menu_span">Notifications</span>
+         </div>
+      </a>
+      <a href="#">
+         <div class="menu">
+            <img class="image_menu" src="img/support_gray.svg" alt="support_gray">
+            <span class="menu_span">Support</span>
+         </div>
+      </a>
+      <a href="registration.html">
+         <div class="menu registration">
+            <span>Registration</span>
+         </div>
+      </a>
+   </div>
+
+   <main>
+      <header>
+         <div><img src="/img/menu.png" alt="menu">Registration</div>
+      </header>
+      <div class="center">
+         <div class="box">
+            <h1>Create account</h1>
+            <form method="get">
+               <label>Name:
+                  <input type="text" name="myname" placeholder="First and Last name" id="name" pattern="^[a-zA-Z]+$">
+               </label>
+               <label>Email:
+                  <input type="email" name="email" placeholder="aaaaa@gmail.com"
+                     pattern="^(\w{5,}@)(([a-z]|[A-Z]){3,5})(\.[a-z]{2,5})$" />
+               </label>
+               <label>Password:
+                  <input type="password" name="pass" placeholder="At least 6 characters" minlength="6"
+                     maxlength="100" />
+                  <div><i><b>i</b>Passwords must be at least 6 characters.</i></div>
+               </label>
+               <label>Re-enter password:
+                  <input type="password" name="Re_enter_pass" minlength="6" maxlength="100" />
+               </label>
+               <div><input class="button" type="submit" value="SEND" /></div>
+            </form>
+            <div class="inform1">By creating an account, you agree to Company`s</div>
+            <div class="inform1"><a href="#">Condition of Use</a> and <a href="#">Privacy Notice.</a></div>
+         </div>
+      </div>
+   </main>
+
+
+</body>
+
+</html>
